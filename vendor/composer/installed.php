@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '9f80e86d9e46b27eea616f6200af7bacb5da1d1b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -401,9 +401,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '9f80e86d9e46b27eea616f6200af7bacb5da1d1b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1158,9 +1158,9 @@
             'dev_requirement' => false,
         ),
         'symfony/polyfill-mbstring' => array(
-            'pretty_version' => 'v1.31.0',
-            'version' => '1.31.0.0',
-            'reference' => '85181ba99b2345b0ef10ce42ecac37612d9fd341',
+            'pretty_version' => 'v1.33.0',
+            'version' => '1.33.0.0',
+            'reference' => '6d857f4d76bd4b343eac26d6b539585d2bc56493',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
             'aliases' => array(),

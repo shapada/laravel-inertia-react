@@ -1,0 +1,6 @@
+.vscode/
+public/build/
+node_modules/
+.env
+vendor/
+vendor/*

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
+class ComposerStaticInit6b0ff21f580b747285dda3ac0a8db970
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -548,8 +548,6 @@ class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\PostController' => __DIR__ . '/../..' . '/app/Http/Controllers/PostController.php',
         'App\\Http\\Middleware\\HandleInertiaRequests' => __DIR__ . '/../..' . '/app/Http/Middleware/HandleInertiaRequests.php',
-        'App\\Http\\Requests\\StorePostRequest' => __DIR__ . '/../..' . '/app/Http/Requests/StorePostRequest.php',
-        'App\\Http\\Requests\\UpdatePostRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdatePostRequest.php',
         'App\\Models\\Post' => __DIR__ . '/../..' . '/app/Models/Post.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Policies\\PostPolicy' => __DIR__ . '/../..' . '/app/Policies/PostPolicy.php',
@@ -6790,9 +6788,9 @@ class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6b0ff21f580b747285dda3ac0a8db970::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6b0ff21f580b747285dda3ac0a8db970::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit6b0ff21f580b747285dda3ac0a8db970::$classMap;
 
         }, null, ClassLoader::class);
     }
